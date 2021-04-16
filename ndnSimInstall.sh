@@ -10,6 +10,7 @@ cd ndnSIM
 aPath1=`pwd`                             #ndnSIMフォルダー絶対パス
 aPath2=$aPath1"/ns-3"              #ns-3フォルダー絶対パス
 aPath3=$aPath1"/pybindgen"    #pybindgenフォルダー絶対パス
+aPath4=$aPath1"ns-3/src/ndnSIM"
 file1="https://raw.githubusercontent.com/Karasukaigan/ndnsim-automatic-installation/master/base.py"
 file2="https://raw.githubusercontent.com/Karasukaigan/ndnsim-automatic-installation/master/hud.py"
 
@@ -44,7 +45,7 @@ echo "ndnSIM本体ダウンロード完了！"
 
 #バージョンを変更
 echo "バージョン変更中..."
-cd ns-3/src/ndnSIM
+cd $aPath4
 git checkout ndnSIM-2.7
 git submodule update --init
 cd $aPath2

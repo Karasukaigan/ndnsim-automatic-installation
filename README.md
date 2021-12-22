@@ -7,6 +7,6 @@ OS：Ubuntu 18.04.5 Desktop<br>
 
 使用方法：<br>
 ①.shファイルをwgetで適切な場所にダウンロード<br>
-②sudo chmod 777 ndnSimInstall.sh（.shファイルのアクセス権限を変更）<br>
-③source ndnSimInstall.sh（./ndnSimInstall.sh使用不可）<br>
+②```sudo chmod 777 ndnSimInstall.sh```（.shファイルのアクセス権限を変更）<br>
+③```source ndnSimInstall.sh```（./ndnSimInstall.sh使用不可）<br>
 ④かなりの時間を待つ<br>
